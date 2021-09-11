@@ -1,12 +1,13 @@
 {
-  "name": "softmakers-challenge",
+  "name": "softmakers-challenge-backend",
   "version": "1.0.0",
   "description": "Projeto desenvolvido para o teste da SoftMakers",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node --inspect index.js",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "migrate": "npx prisma migrate dev"
   },
   "keywords": [],
   "author": {
